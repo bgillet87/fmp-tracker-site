@@ -12,3 +12,4 @@ account, no ads, no data collection.
 - [Privacy Policy](privacy/)
 - [Terms of Use](terms/)
 - [Support](support/)
+- [Privacy by Design](privacy-by-design/)
