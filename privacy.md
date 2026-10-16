@@ -29,10 +29,11 @@ storage:
 - Session history: dates, duration, training location, and your notes
 - Personal records derived from your logged lifts
 - Symptom check-ins, if you choose to log them
-- Body measurements: weight, body fat, and tape measurements
-- Food log entries and your macro targets
+- Body measurements (weight, body fat, tape measurements) and any body targets you set
+- Food log entries, your macro targets, and your weekly meal plan
 - Your training calendar, reminder times, and warm-up choices
 - Your Find My Program answers
+- Plans you build in My Plans, including any clinician name you enter
 - App settings, including your home equipment list
 
 None of this leaves your device unless you export it yourself using the export

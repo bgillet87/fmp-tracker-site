@@ -59,6 +59,10 @@ have not been adapted for you, and they do not make any exercise safe for you.
 Spine-load ratings are general guidance based on published biomechanics
 research; individual tolerance varies.
 
+**My Plans** stores the plan you enter, as you enter it. The app does not write,
+review, or adjust your plan, and does not check that it is right for you. Follow
+your clinician's instructions, and check back with them as they advise.
+
 ## Nutrition and body measurements
 
 Macro targets, meal plans, recipes, and food values are general estimates for
