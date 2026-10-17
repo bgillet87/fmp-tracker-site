@@ -36,8 +36,8 @@ storage:
 - Plans you build in My Plans, including any clinician name you enter
 - App settings, including your home equipment list
 
-None of this leaves your device unless you export it yourself using the export
-feature, or you use Apple's own iCloud device backup, which is governed by
+None of this leaves your device unless you send it yourself (a CSV export, a
+backup file, or a plan you share), or you use Apple's own iCloud device backup, which is governed by
 Apple's privacy policy rather than this one.
 
 ## Apple Health (optional, off by default)
@@ -111,6 +111,12 @@ from anyone, including children.
 - There is no account to delete, because none exists.
 - You can export everything to CSV from Settings at any time. The export file
   is created only for sharing and removed from the app once you've shared it.
+- You can save a complete backup to a file of your choice (Files, iCloud Drive,
+  AirDrop) and restore it later. The app writes the file only when you ask,
+  removes its temporary copy once you've saved it, and reads a file only when
+  you pick one. The backup holds everything above, so keep it somewhere private.
+- In My Plans you can send a plan as a file or import one someone sends you.
+  Only the plan itself is in the file.
 
 ## Changes
 
