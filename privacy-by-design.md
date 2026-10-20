@@ -9,7 +9,7 @@ How FMP Tracker's design maps to the seven foundational principles of
 Privacy by Design (Ann Cavoukian, Information and Privacy Commissioner of
 Ontario) and to the privacy-by-default requirement in Quebec's Law 25.
 
-*Last updated: October 16, 2026, for version 1.0.0. A design record, not legal
+*Last updated: October 20, 2026, for version 1.0.0. A design record, not legal
 advice or a certification.* FMP Tracker is not affiliated with or endorsed by the Information and Privacy Commissioner of Ontario, Ann Cavoukian, or the Commission d’accès à l’information du Québec.
 
 ## Summary
@@ -49,7 +49,9 @@ storage starts in its most private state:
 | Apple Health sync | Off | Nothing read from or written to Apple Health |
 | Apple Watch data | Off | No heart rate, energy or workout data read |
 | Workout reminders | Off | No notification permission requested |
+| Apple Watch app | Only if the user installs it on their watch | The workout and logged sets pass directly between the user's iPhone and watch, never through a server |
 | CSV export | Never automatic | Created only when the user exports, then deleted |
+| Clinician report | Never automatic | A PDF made only when the user asks, shared where they choose, then deleted |
 
 ### Other obligations
 Most of Law 25's other duties attach to an enterprise that collects personal

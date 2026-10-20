@@ -5,7 +5,7 @@ permalink: /terms/
 
 # Terms of Use — FMP Tracker
 
-*Last updated: October 16, 2026*
+*Last updated: October 20, 2026*
 
 
 ## Acceptance
@@ -46,7 +46,7 @@ liability for any injury, loss, or damage arising from your use of the App.
 ## Programs in the App
 
 - **The Functional Mass Protocol** reflects one individual's physiotherapy
-  guidance for a specific lower-back condition.
+  guidance for their lower back.
 - **The Functional Foundation Protocol** reflects one individual's
   physiotherapy guidance for joint stability and controlled strength.
 - **All other programs**, including The Strength and Mass Protocol and the
@@ -62,6 +62,17 @@ research; individual tolerance varies.
 **My Plans** stores the plan you enter, as you enter it. The app does not write,
 review, or adjust your plan, and does not check that it is right for you. Follow
 your clinician's instructions, and check back with them as they advise.
+
+## Your records, recovery activities and heart rate
+
+- **The clinician report** is a copy of records you entered, made on your device
+  when you ask. The App adds no analysis or interpretation. It is not medical
+  advice, and you decide who receives it.
+- **Recovery activities** you plan or log are your own choice of activity, not a
+  prescription or treatment.
+- **Heart rate and calories** come from your Apple Watch and Apple Health and may
+  not be accurate. The App shows them and never interprets them; they are not
+  for medical use.
 
 ## Nutrition and body measurements
 
