@@ -31,7 +31,7 @@ user turns it on**.
 | 4 | **Full functionality: positive-sum, not zero-sum** | Every feature works offline, with Apple Health off, and without an Apple Watch. Privacy doesn't cost the user features. |
 | 5 | **End-to-end security: full lifecycle protection** | Data sits in iOS app storage, protected by the device's encryption and passcode. Exported files are deleted after sharing. **Delete All My Data** removes everything in one step, as does deleting the app. |
 | 6 | **Visibility and transparency: keep it open** | A public [privacy policy](../privacy/), the same text inside the app, a "Data Not Collected" App Store label, and Apple Health permission prompts that state exactly what is read and written. Links that open other services are disclosed. |
-| 7 | **Respect for user privacy: keep it user-centric** | The user controls everything: export to CSV, delete single entries, delete all data, revoke Apple Health access in iOS Settings. Apple Health access is limited to what features use: read weight, height, heart rate, active energy and workouts; write workouts and weight. |
+| 7 | **Respect for user privacy: keep it user-centric** | The user controls everything: export to CSV, delete single entries, delete all data, revoke Apple Health access in iOS Settings. Apple Health access is limited to what features use: read weight, height, heart rate, active energy, workouts and sleep; write workouts, weight and water. Backups can be encrypted with a password on the device. |
 
 ## Quebec Law 25
 

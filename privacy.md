@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Privacy Policy — FMP Tracker
 
-*Last updated: October 20, 2026*
+*Last updated: October 28, 2026*
 
 
 ## Summary
@@ -30,7 +30,9 @@ storage:
   answers to the day-after check-in
 - Personal records derived from your logged lifts
 - Symptom check-ins, if you choose to log them
-- Body measurements (weight, body fat, tape measurements) and any body targets you set
+- Body measurements (weight, body fat, tape measurements), any body targets you set, and
+  which proportion goals you use
+- Water you log on the Today screen
 - Food log entries, foods and recipes you create, your macro targets, and your
   weekly meal plan
 - Your training calendar, reminder times, warm-up choices, and the recovery
@@ -46,6 +48,10 @@ backup file, a clinician report, or a plan you share), or you use Apple's own
 iCloud device backup, which is governed by Apple's privacy policy rather than
 this one.
 
+Numbers the app works out from what you enter, such as a body fat estimate
+from your tape measurements, waist-to-hip ratio and FFMI (fat-free mass
+index), are worked out on your device and shown as numbers only.
+
 ## The clinician report
 
 When you ask for one (Settings, or My Plans → Share with clinician), the app
@@ -59,14 +65,17 @@ receives it; once you send it, how the recipient handles it is up to them.
 
 If you install FMP Tracker on your Apple Watch, your iPhone sends it your next
 workout (exercise names, sets, reps, rest times, starting weights, your theme's
-colour, and your units), and the watch sends back the sets you log and when a
+colours, and your units), and the watch sends back the sets you log and when a
 workout starts, finishes, or is discarded. This goes directly between your
 iPhone and your watch through Apple's WatchConnectivity framework. It never
 passes through a server, because there isn't one.
 
-During a workout you start or join on the watch, the watch app reads heart rate
-and active energy and saves the workout to Apple Health, which shows it on your
-iPhone too. It asks Apple Health for the same types as the iPhone app and
+When you start a workout on your iPhone, it can open the watch app through Apple
+Health (HealthKit) so the watch joins it; you can turn this off in Settings.
+During the workout your iPhone also tells the watch which sets you have logged
+and which exercise is open, so both show the same. While a workout runs on the
+watch, the watch app reads heart rate and active energy and saves the workout to
+Apple Health, which shows it on your iPhone too. It asks Apple Health for the same types as the iPhone app and
 nothing more. With Focus on Training on, the watch shows no calories.
 
 ## Widgets and the Lock Screen timer
@@ -78,6 +87,13 @@ are drawn on your phone from data the app shares with them on the device;
 nothing is sent anywhere. Anyone who can see your screen can see them. Remove
 the widgets, or turn off Live Activities for FMP Tracker in iOS Settings.
 
+## App Lock (optional, off by default)
+
+If you turn on App Lock in Settings, the app asks for Face ID, Touch ID or your
+iPhone passcode when it opens and after a minute away. iOS does the checking and
+tells the app only whether it succeeded: the app never receives your face,
+fingerprint or passcode, and stores nothing but the on/off setting.
+
 ## Apple Health (optional, off by default)
 
 With Apple Health sync on, the app:
@@ -85,10 +101,12 @@ With Apple Health sync on, the app:
 - **Writes** a summary of each completed workout (start time, end time,
   duration, and an estimated calorie count), each walk, bike ride, row, swim,
   yoga or mobility session you log as recovery (start time, end time, and
-  duration; not while Apple Watch data is on), and any body weight you type
-  into the Body tab. Weights that came from Apple Health are never written back.
+  duration; with Apple Watch data on, not if your watch already recorded that
+  kind of workout that day), any body weight you type into the Body tab, and
+  each glass of water you log on the Today screen (taking one back removes it
+  from Health too). Weights that came from Apple Health are never written back.
 - **Reads** your height and most recent body weight, so you don't have to type
-  them in.
+  them in, and last night's sleep, to show on the Today screen.
 
 | Health data | Read or write | Why |
 |---|---|---|
@@ -97,6 +115,8 @@ With Apple Health sync on, the app:
 | Workouts | Read and write | Record sessions and logged recovery activities; find your Apple Watch workout so a session is never saved twice |
 | Heart rate | Read, with Watch data on or in a watch-app workout | Show heart rate for a session |
 | Active energy | Read, with Watch data on or in a watch-app workout | Show calories for a session |
+| Water | Write | Save water you log on the Today screen |
+| Sleep | Read | Show last night's sleep on the Today screen, as a number only |
 
 The app requests nothing else from Apple Health.
 
@@ -159,10 +179,17 @@ from anyone, including children.
   AirDrop) and restore it later. The app writes the file only when you ask,
   removes its temporary copy once you've saved it, and reads a file only when
   you pick one. The backup holds everything above, so keep it somewhere private.
+  You can protect it with a password: the file is then encrypted on your phone
+  (AES-256) and can't be read without the password. The app doesn't keep the
+  password, so a forgotten one can't be recovered.
 - In My Plans you can send a plan as a file or import one someone sends you.
   Only the plan itself is in the file.
 - A clinician report is made only when you ask, and its temporary file is
   removed once you've shared it.
+- If the app hits an error, a short note of it (the screen, the time and the
+  error message) is kept on your phone, so you can read it in Settings → Last
+  Problem and include it in a support email if you choose. It is never sent
+  anywhere, and Clear It removes it.
 
 ## Changes
 

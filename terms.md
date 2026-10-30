@@ -70,9 +70,10 @@ your clinician's instructions, and check back with them as they advise.
   advice, and you decide who receives it.
 - **Recovery activities** you plan or log are your own choice of activity, not a
   prescription or treatment.
-- **Heart rate and calories** come from your Apple Watch and Apple Health and may
-  not be accurate. The App shows them and never interprets them; they are not
-  for medical use.
+- **Heart rate, calories and sleep** come from your Apple Watch and Apple Health
+  and may not be accurate. The App shows them and never interprets them; they
+  are not for medical use. Estimates the App works out from your own entries
+  (body fat from tape measurements, FFMI, nutrition targets) are estimates only.
 
 ## Nutrition and body measurements
 
