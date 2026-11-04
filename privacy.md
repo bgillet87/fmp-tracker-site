@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Privacy Policy — FMP Tracker
 
-*Last updated: October 28, 2026*
+*Last updated: November 4, 2026*
 
 
 ## Summary
@@ -39,12 +39,13 @@ storage:
   activities you plan and log
 - Your Find My Program answers
 - Plans you build in My Plans, including any clinician name you enter
+- The name you add in the You sheet, if you add one (shown in place of “You”)
 - Workout history you import from another app's export file
 - App settings, including the equipment lists for home and the gym, and your
   progression suggestion and weekly review choices
 
 None of this leaves your device unless you send it yourself (a CSV export, a
-backup file, a clinician report, or a plan you share), or you use Apple's own
+backup file, a clinician report, a plan or plan sheet you share, or a workout card or summary you share), or you use Apple's own
 iCloud device backup, which is governed by Apple's privacy policy rather than
 this one.
 
@@ -186,6 +187,16 @@ from anyone, including children.
   Only the plan itself is in the file.
 - A clinician report is made only when you ask, and its temporary file is
   removed once you've shared it.
+- A plan sheet (a PDF of one of your plans, or a blank one to fill in) is made
+  only when you ask, and its temporary file is removed once you've shared it.
+- A workout card or Copy Summary is made on your phone from the session you
+  choose: the program, the exercises, your best sets and any records. It never
+  includes check-ins, symptoms, heart rate, sleep, water, food or body numbers,
+  and it goes only where you send it through the share sheet. The card's
+  temporary image is removed afterwards.
+- When your iPhone opens the watch app, a short note of the last launch (the
+  time, whether it opened, and why not if it didn't) is kept on your phone and
+  shown in Settings. It is never sent anywhere.
 - If the app hits an error, a short note of it (the screen, the time and the
   error message) is kept on your phone, so you can read it in Settings → Last
   Problem and include it in a support email if you choose. It is never sent
